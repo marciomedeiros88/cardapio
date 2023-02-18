@@ -1,0 +1,39 @@
+main{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+}
+
+section{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+}
+
+main div{
+    background-color: #896B45;
+    width: 25em;
+    border-radius: 1em;
+    margin: 2em 1em auto;
+    cursor: pointer;
+}
+
+main h1{
+    color: white;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 0.25em;
+}
+
+main img{
+    width:35em;
+    object-fit: cover;
+}
+
+.crop {
+    width: 25em; /* width of container */
+    height: 27.5em; /* height of container */
+    object-fit: cover;
+    border-radius: 1em;
+}

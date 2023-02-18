@@ -1,0 +1,41 @@
+
+.bg_cervejas{
+    height: 10em;
+    /* background-color: #896B45; */
+    background-image: url("../../assets/beer.jpg");
+    background-position-y: 70.5%;
+    background-size: cover;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    transition: all 1500ms;
+}
+
+.bg_cervejas:hover{
+    background-position-y: 85%;
+    transition: all 1500ms;
+}
+
+nav div{
+    height:10em;
+    width: 10em;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 2px 2px 10px rgb(107, 107, 107);
+    background-color: white;
+    align-items: center;
+    display: flex;
+    margin-left: 10em;
+}
+
+nav div img{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.nome_topo{
+    font-size: 32pt;
+    color: white;
+    align-items: center;
+    display: flex;
+    font-family: 'Abril Fatface', cursive;
+}
