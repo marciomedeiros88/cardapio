@@ -3,7 +3,7 @@
 
 Projeto cardápio para lanchonete é um projeto experimental para aprendizado do framework React.js durante o curso de Developer Full Stack da Escola DNC.
 
-Getting started
+### Getting started
 
 Faça o download dos arquivos na sua máquina e no diretório principal do projeto, no terminal execute o comando:
 
