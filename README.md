@@ -38,7 +38,7 @@ Acreditando no aprendizado e desenvolvimento exponencial, nos esforçamos para c
 
 ![gif cardapio](https://user-images.githubusercontent.com/118381472/219947340-826b151b-09b0-4fcc-b0ad-1fb857bb2b52.gif)
 
-![gif cardapio2](https://user-images.githubusercontent.com/118381472/219947347-452626b4-0110-4238-a95d-50067b7ebb5c.gif)
+![gif cardapio2](https://user-images.githubusercontent.com/118381472/219947448-e35c5b8d-20d2-4f52-8801-7e0305bf7353.gif)
 
 ### `Obrigado!`
 
