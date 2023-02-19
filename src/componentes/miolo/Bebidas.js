@@ -1,4 +1,5 @@
 import './Bebidas.css'
+import '../topo/Topobebidas.css'
 import React from 'react'
 import agua from '../../assets/agua.jpg';
 import cervejas from '../../assets/beer.jpg';
@@ -8,6 +9,7 @@ import energeticos from '../../assets/energy.jpg';
 import destilados from '../../assets/whisky.jpg';
 import sucos from '../../assets/sucos.jpg';
 import seta from '../../assets/seta.png';
+import logo from '../../assets/logo.png';
 import { useNavigate, Link } from 'react-router-dom';
 
 const Bebidas = () => {
@@ -15,8 +17,12 @@ const Bebidas = () => {
     
     return(
         <>
+        <nav className='bg_bebidas'>
+            <div><img src={logo}></img></div>
+            <h2 className='nome_topo'>Bebidas</h2>
+        </nav>
         <main>
-            <section className="menu_comidas">
+            <section className="menu_bebidas">
             <div className='item_menor'><Link to="/cervejas" style={{ textDecoration: 'none' }}>
                 <img className="crop_min img_menor" src={cervejas}></img>
             <h1>Cervejas</h1></Link></div>

@@ -3,19 +3,19 @@ import React from 'react';
 import seta from '../../assets/seta.png';
 import logo from '../../assets/logo.png';
 import './Sanduiches.css'
-import '../topo/Topodrinks.css'
+import '../topo/Topoaguas.css'
 import {useState} from 'react';
 
-const Drinks = () => {
+const Aguas = () => {
     const navigate = useNavigate();
     const [counter, setCounter] = useState (0); //recebe o parametro inicial do estado
 
 
     return(
         <>
-        <nav className='bg_drinks'>
+        <nav className='bg_aguas'>
             <div><img src={logo}></img></div>
-            <h2 className='nome_topo'>Drinks</h2>
+            <h2 className='nome_topo'>Águas</h2>
         </nav>
         <main>
             
@@ -43,4 +43,4 @@ const Drinks = () => {
     )
 }
 
-export default Drinks
+export default Aguas

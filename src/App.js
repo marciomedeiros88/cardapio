@@ -16,14 +16,19 @@ import Bebidas from './componentes/miolo/Bebidas';
 import Cervejas from './componentes/miolo/Cervejas';
 import Refris from './componentes/miolo/Refris';
 import Drinks from './componentes/miolo/Drinks';
+import Sucos from './componentes/miolo/Sucos';
+import Sobremesas from './componentes/miolo/Sobremesas';
+import Destilados from './componentes/miolo/Destilados';
+import Aguas from './componentes/miolo/Aguas';
+import Energeticos from './componentes/miolo/Energeticos';
 import Topo from './componentes/topo/Topo';
-import { BrowserRouter as Router, Route, Routes, NavLink, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 function App() {
 
   return (
-    <><Topo />
+    <>
       <Router>
         <Routes>
           <Route exact path='/' element={<Miolostart />}/>
@@ -41,9 +46,13 @@ function App() {
           <Route exact path="/cervejas" element={<Cervejas />}/>
           <Route exact path="/refris" element={<Refris />}/>
           <Route exact path="/drinks" element={<Drinks />}/>
-          </Routes>
+          <Route exact path="/sobremesas" element={<Sobremesas />}/>
+          <Route exact path="/sucos" element={<Sucos />}/>
+          <Route exact path="/aguas" element={<Aguas />}/>
+          <Route exact path="/destilados" element={<Destilados />}/>
+          <Route exact path="/energeticos" element={<Energeticos />}/>
+        </Routes>
       </Router>
-        
     </>
   );
 }
