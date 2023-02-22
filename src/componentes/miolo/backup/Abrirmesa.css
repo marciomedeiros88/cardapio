@@ -1,0 +1,49 @@
+ul{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    margin: 1em auto;
+}
+
+li{
+    list-style: none;
+}
+
+h2{
+    font-size: 18pt;
+    padding: 0 0.5em;
+}
+
+.numeromesa{
+    background-color: #896B45;
+    border-radius: 2em 2em 0 0;
+}
+
+.iconemesa{
+    border-radius: 0 0 2em 2em;
+}
+
+li div{
+    display: flex;
+    flex-direction: column;
+    background-color: #53412a;
+    color: white;
+    vertical-align: middle;
+    align-items: center;
+    width:auto;
+    text-align: center;
+    justify-content: center;
+    margin-top:0;
+}
+
+li img{
+    display: flex;
+    flex-direction: row;
+    width: 5em;
+    padding:1em;
+    vertical-align: middle;
+    align-items: center;
+}
