@@ -32,6 +32,11 @@ O principal objetivo foi ter o primeiro contato com o framework React, enfrentar
 
 Tivemos um grande avanço no conceito de Link, Router, Routers e Route, peças fundamentais para navegação entre telas, além disso descobrimos que alguns elementos do react devem ser instalados de outras bibliotecas.
 
+### Transition
+
+Instalamos e aplicamos a biblioteca de transições do react no projeto para deixar as transições do sistema menos rígidas, tornando a experiência de navegação mais fluida e amigável.
+
+![gif cardapio3](https://user-images.githubusercontent.com/118381472/220701245-c8ea0bb9-9d1c-46a7-b647-37ea11211060.gif)
 
 ### Resultado final
 
