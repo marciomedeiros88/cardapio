@@ -1,47 +1,70 @@
-![lanche](https://user-images.githubusercontent.com/118381472/219948078-edad2d7f-d8ab-4ab8-aeff-52e758f76961.gif)
+# Getting Started with Create React App
 
-Projeto cardápio para lanchonete é um projeto experimental para aprendizado do framework React.js durante o curso de Developer Full Stack da Escola DNC.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Getting started
+## Available Scripts
 
-Faça o download dos arquivos na sua máquina e no diretório principal do projeto, no terminal execute o comando:
+In the project directory, you can run:
 
 ### `npm start`
 
-Seu navegador abrirá uma nova janela com o seguinte endereço:
-http://localhost:3000
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Pronto! Agora é só navegar pelo nosso cardápio.
-Ao navegar o endereço na página mudará para os nomes das páginas do projeto.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Objetivos do projeto
+### `npm run build`
 
-O principal objetivo foi ter o primeiro contato com o framework React, enfrentar os desafios de desenvolver algo do zero a partir do layout do Figma, que também foi criado por nós.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-![image](https://user-images.githubusercontent.com/118381472/219880884-7dc46572-f533-4867-91da-4b49ac200b70.png)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Techs
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-✅ ### `Javascript` NPM (Node Package Manager)
-✅ ### `Html`
-✅ ### `CSS`
+### `npm run eject`
 
-### Router
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Tivemos um grande avanço no conceito de Link, Router, Routers e Route, peças fundamentais para navegação entre telas, além disso descobrimos que alguns elementos do react devem ser instalados de outras bibliotecas.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### Resultado final
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Acreditando no aprendizado e desenvolvimento exponencial, nos esforçamos para criar, desenvolver e testar a aplicação, tendo como resultado final a navegação abaixo:
+## Learn More
 
-![gif cardapio](https://user-images.githubusercontent.com/118381472/219947340-826b151b-09b0-4fcc-b0ad-1fb857bb2b52.gif)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-![gif cardapio2](https://user-images.githubusercontent.com/118381472/219947448-e35c5b8d-20d2-4f52-8801-7e0305bf7353.gif)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
-### `Obrigado!`
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
