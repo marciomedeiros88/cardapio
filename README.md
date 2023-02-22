@@ -22,6 +22,11 @@ O principal objetivo foi ter o primeiro contato com o framework React, enfrentar
 
 ![image](https://user-images.githubusercontent.com/118381472/219880884-7dc46572-f533-4867-91da-4b49ac200b70.png)
 
+### Techs
+
+✅ ### `Javascript` NPM (Node Package Manager)
+✅ ### `Html`
+✅ ### `CSS`
 
 ### Router
 
