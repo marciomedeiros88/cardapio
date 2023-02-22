@@ -1,0 +1,30 @@
+.crop_min {
+    width: 20em; /* width of container */
+    height: 15em; /* height of container */
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+.item_menor{
+    background-color: #896B45;
+    width: 20em;
+    border-radius: 1em;
+    margin: 2em 1em auto;
+    cursor: pointer;
+}
+
+.menu_bebidas{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.img_menor:hover{   
+    
+    height: 17em;
+    object-fit: cover;
+    transition: all 500ms;
+}
