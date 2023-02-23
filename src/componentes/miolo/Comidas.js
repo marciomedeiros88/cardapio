@@ -7,7 +7,6 @@ import salgados from '../../assets/coxinha.jpg';
 import combos from '../../assets/combos.jpg';
 import hotdogs from '../../assets/hotdog.jpg';
 import petiscos from '../../assets/petisco.jpg';
-import seta from '../../assets/seta.png';
 import logo from '../../assets/logo.png';
 import { useNavigate, Link } from 'react-router-dom';
 

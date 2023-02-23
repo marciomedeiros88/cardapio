@@ -24,8 +24,21 @@ h2{
 }
 
 .numeromesa{
-    background-color: #896B45;
+    background-color: green;
     border-radius: 2em 2em 0 0;
+}
+
+.numeromesa:hover{
+    background-color: rgb(1, 65, 1);
+}
+
+.numeromesa2{
+    background-color: red;
+    border-radius: 2em 2em 0 0;
+}
+
+.numeromesa2:hover{
+    background-color: rgb(146, 0, 0);
 }
 
 .iconemesa{

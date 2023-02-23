@@ -1,25 +1,25 @@
 import './Abrirmesa.css'
 import '../topo/Topoabrirmesa.css'
-import icone from '../../assets/icone.png'
 import logo from '../../assets/logo.png';
 import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 const Abrirmesa = () => {
     const navigate = useNavigate();
     var statusMesa = 0;
-    var numeroMesa = {
-        backgroundColor: 'green',
-    }
+    const [numeroMesa, setnumeroMesa] = useState("numeromesa");
+
     function mudarStatusMesa(){
         if(statusMesa == 0){
             console.log('Você clicou.');
             statusMesa = statusMesa + 1;
             console.log(statusMesa);
+            
         } else if(statusMesa == 1){
             console.log('Você clicou novamente.');
             statusMesa = statusMesa - 1;
             console.log(statusMesa);
-            numeroMesa.style.backgroundColor = 'red';            
+            setnumeroMesa("numeromesa2");
         }
     }
 
@@ -32,7 +32,7 @@ const Abrirmesa = () => {
         <main>
             <ul>
                 <li onClick={mudarStatusMesa}>
-                    <div className='numeromesa' style={numeroMesa}><h2>1</h2></div>
+                    <div className={numeroMesa}><h2>1</h2></div>
                     <div className='iconemesa'><svg width="75" height="75" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" fill="#FFFFFF"
                 viewBox="0 0 122.9 121.9">
                 <g>

@@ -4,7 +4,6 @@ import React, {Component} from 'react'
 import comidas from '../../assets/comidas.jpg';
 import bebidas from '../../assets/bebidas.jpg';
 import sobremesas from '../../assets/sobremesas.jpg';
-import seta from '../../assets/seta.png';
 import logo from '../../assets/logo.png';
 import { useNavigate, Link } from 'react-router-dom';
 

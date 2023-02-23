@@ -1,6 +1,5 @@
 import { useNavigate } from 'react-router-dom';
 import React from 'react';
-import seta from '../../assets/seta.png';
 import logo from '../../assets/logo.png';
 import './Sanduiches.css'
 import '../topo/Topoenergeticos.css'
@@ -9,7 +8,6 @@ import {useState} from 'react';
 const Energeticos = () => {
     const navigate = useNavigate();
     const [counter, setCounter] = useState (0); //recebe o parametro inicial do estado
-
 
     return(
         <>
