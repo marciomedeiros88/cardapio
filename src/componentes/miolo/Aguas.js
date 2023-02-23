@@ -1,6 +1,5 @@
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import React from 'react';
-import seta from '../../assets/seta.png';
 import logo from '../../assets/logo.png';
 import './Sanduiches.css'
 import '../topo/Topoaguas.css'

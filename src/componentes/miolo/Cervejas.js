@@ -1,4 +1,4 @@
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import logo from '../../assets/logo.png';
 import './Sanduiches.css'
@@ -8,7 +8,6 @@ import {useState} from 'react';
 const Cervejas = () => {
     const navigate = useNavigate();
     const [counter, setCounter] = useState (0); //recebe o parametro inicial do estado
-
 
     return(
         <>

@@ -8,7 +8,6 @@ import drinks from '../../assets/drink.jpg';
 import energeticos from '../../assets/energy.jpg';
 import destilados from '../../assets/whisky.jpg';
 import sucos from '../../assets/sucos.jpg';
-import seta from '../../assets/seta.png';
 import logo from '../../assets/logo.png';
 import { useNavigate, Link } from 'react-router-dom';
 
