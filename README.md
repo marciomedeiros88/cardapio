@@ -36,6 +36,11 @@ Tivemos um grande avanço no conceito de Link, Router, Routers e Route, peças f
 
 ![gif cardapio2](https://user-images.githubusercontent.com/118381472/219947448-e35c5b8d-20d2-4f52-8801-7e0305bf7353.gif)
 
+![gif cardapio1](https://marciomedeirosdesign.com.br/nucleoweb/cardapio/gifs/cardapio001.gif)
+![gif cardapio2](https://marciomedeirosdesign.com.br/nucleoweb/cardapio/gifs/cardapio002.gif)
+![gif cardapio3](https://marciomedeirosdesign.com.br/nucleoweb/cardapio/gifs/cardapio003.gif)
+![gif cardapio4](https://marciomedeirosdesign.com.br/nucleoweb/cardapio/gifs/cardapio004.gif)
+
 ### Transition
 
 Instalamos e aplicamos a biblioteca de transições do react no projeto para deixar as transições do sistema menos rígidas, tornando a experiência de navegação mais fluida e amigável.
