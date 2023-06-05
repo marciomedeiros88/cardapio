@@ -36,10 +36,13 @@ Tivemos um grande avanço no conceito de Link, Router, Routers e Route, peças f
 
 ![gif cardapio2](https://user-images.githubusercontent.com/118381472/219947448-e35c5b8d-20d2-4f52-8801-7e0305bf7353.gif)
 
-![gif cardapio1](https://marciomedeirosdesign.com.br/nucleoweb/cardapio/gifs/cardapio001.gif)
-![gif cardapio2](https://marciomedeirosdesign.com.br/nucleoweb/cardapio/gifs/cardapio002.gif)
-![gif cardapio3](https://marciomedeirosdesign.com.br/nucleoweb/cardapio/gifs/cardapio003.gif)
-![gif cardapio4](https://marciomedeirosdesign.com.br/nucleoweb/cardapio/gifs/cardapio004.gif)
+![cardapio001_1_1](https://github.com/marciomedeiros88/cardapio/assets/118381472/fd7b68e9-1dc4-487e-8206-7762bf441b48)
+
+![cardapio002_1](https://github.com/marciomedeiros88/cardapio/assets/118381472/6b242d1b-2959-4e65-8fc6-0f1da2fc5f91)
+
+![cardapio003_1](https://github.com/marciomedeiros88/cardapio/assets/118381472/096b2c39-0c4a-41c0-a569-181e196a33d1)
+
+![cardapio004_1](https://github.com/marciomedeiros88/cardapio/assets/118381472/f5c69116-6a93-4105-9b45-cdaa0420a231)
 
 ### Transition
 
