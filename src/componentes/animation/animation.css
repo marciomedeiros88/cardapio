@@ -1,0 +1,13 @@
+.transition-enter{
+    opacity: 0;
+    transform: translateX(100vh);
+    z-index: 1;
+    transition: all 250ms ease-out;
+}
+
+.transition-enter.transition-enter-active{
+    opacity: 1;
+    transform: translateX(0vh);
+    transition: all 250ms ease-out;
+    z-index: 2;
+}

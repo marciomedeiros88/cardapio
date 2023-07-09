@@ -1,0 +1,21 @@
+.titulocadastroproduto{
+    color: white;
+    text-align: center;
+}
+
+.inputfile{
+    text-align: center;
+    color: white;
+}
+
+.labelinputfile{
+    color: white;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.formcadastroproduto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

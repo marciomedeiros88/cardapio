@@ -1,7 +1,6 @@
 .item{
     margin: 0 0.25em;
     width:auto;
-    height:3em;
     text-align:center;
     padding: 0 1em;
 }
@@ -61,20 +60,15 @@
     text-align:center;
 }
 
-.text_item{
-    font-size: 20pt;
-    width:30em;
-}
-
 .text_item_left{
     text-align:left;
-}
-
-.item_list_bg{
-    background-color: #896B45;
 }
 
 .item_list_line{
     margin: 1em auto;
     height:2em;
+}
+
+.listaprodutos{
+    width: 50%;
 }

@@ -1,0 +1,168 @@
+*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+/auth -> Rota responsável por verificar se um determinado cliente existe no banco, através do CNPJ, caso ele exista, será devolvido um token para utilizar em outras
+rotas como *(OBSERVAÇÃO É NA ROTA /AUTH QUE TODO O PROCESSO COMEÇA POR PARTE DO CONSUMO DE DADOS DO FRONT-END, PRIMEIRO VOCÊ PRECISA POSSUIR UM TOKEN DE AUTENTICAÇÃO
+PARA PODER FAZER QUALQUER COISA DENTRO DA API, CONSULTAR UM PRODUTO, PEDIDO, CADASTRO DE PRODUTO E PEDIDO)*/cadastrarProdutos, /cadastrarPedidos, /listarProdutos, 
+/listarPedidos
+*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+_________________________________________________________________________________________________________________________________________________________________________
+								
+									OBSERVAÇÕES 
+_________________________________________________________________________________________________________________________________________________________________________
+-> Ao realizar a requisição em /auth obrigatoriamente será necessário informar uma public key, para que haja o fluxo correto das requisições, caso contrário um erro será 
+exibido
+
+-> Se não informado, nenhuma outra operação em qualquer rota que seja, poderá ser realizada....
+
+-> Para cada requisição método POST efetuada, será *OBRIGATORIAMENTE* requerido que os dados informados sejam criptogrados, caso contrário um erro será exibido
+
+-> O objeto principal, não precisa ser criptografado, somente os dados inseridos dentro dele deverão ser encriptados.
+
+	Ex : Rota de cadastro de pedidos /cadastrarpedidos
+		"pedidos" : <hash com os dados do pedido>
+*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+
+_________________________________________________________________________________________________________________________________________________________________________
+		
+									ROTAS POST
+_________________________________________________________________________________________________________________________________________________________________________
+
+Schema para autenticação rota /auth
+"cpf_cnpj" : "hash com a publickey informada na rota /publickey método *GET*",
+"public_key" : "chave RSA publica fornecida pelo front end para criptografia interna para devolução de dados da API"
+
+Schema para cadastrar pedidos rota /cadastrarpedidos
+"pedido" : {
+	"numero_pedido" : "7",
+        "comanda" : 1,
+        "delivery" : "N",
+        "produtos" : [{
+            "produto" : "7895866337740",
+            "quantidade" : 6,
+            "preco" : 30
+        },{
+            "produto" : "7895866337741",
+            "quantidade" : 6,
+            "preco" : 30
+        }, {
+            "produto" : "7895866337742",
+            "quantidade":9,
+            "preco" : 40
+        }, {
+            "produto" : "7895866337743",
+            "quantidade" : 12,
+            "preco" : 55
+        }, {
+            "produto" : "7895866337744",
+            "quantidade" : 2,
+            "preco" : 65
+        },{
+            "produto" : "7895866337745",
+            "quantidade" : "15",
+            "preco" : "75"
+        },{
+            "produto" : "7895866337746",
+            "quantidade" : "19",
+            "preco" : "85"
+        },{
+            "produto" : "7895866337747",
+            "quantidade" : 3,
+            "preco" : 22
+        },{
+            "produto" : "7895866337748",
+            "quantidade" : 3,
+            "preco" : 22
+        },{
+            "produto" : "7895866337749",
+            "quantidade" : 3,
+            "preco" : 22
+        },{
+            "produto" : "7895866337750",
+            "quantidade" : 3,
+            "preco" : 22
+        },{
+            "produto" : "7895866337751",
+            "quantidade" : 3,
+            "preco" : 22
+        },{
+            "produto" : "7895866337752",
+            "quantidade" : 3,
+            "preco" : 22
+        }]
+    }
+
+Schema para cadastrar produtos rota /cadastrarProdutos
+"produtos" : [{
+	        "descricao" : "Guarana Antartica",
+            "codbarras" : "7895866337740",
+            "qtd_estoque" : 6,
+            "preco" : 30,
+	        "tp_venda" : "U",
+	        "grupo" : "bebidas"
+        },{
+	        "descricao" : "Guarana Uliana",
+            "codbarras" : "7895866337741",
+            "qtd_estoque" : 10,
+            "preco" : 35,
+	        "tp_venda" : "U",
+	        "grupo" : "bebidas"        
+	},{
+	        "descricao" : "Guarana 375ml",
+            "codbarras" : "7895866337742",
+            "qtd_estoque" : 10,
+            "preco" : 35,
+	        "tp_venda" : "U",
+	        "grupo" : "bebidas"        
+	},{
+	        "descricao" : "Guarana Cini",
+            "codbarras" : "7895866337743",
+            "qtd_estoque" : 10,
+            "preco" : 35,
+	        "tp_venda" : "U",
+	        "grupo" : "bebidas"        
+	},{
+	        "descricao" : "Bolo de Queijo",
+            "codbarras" : "7895866337744",
+            "qtd_estoque" : 14,
+            "preco" : 40,
+	        "tp_venda" : "U",
+	        "grupo" : "doces"
+        },{
+		    "descricao" : "Coxinha",
+		    "codbarras" : "7895866337745",
+		    "qtd_estoque" : 18,
+		    "preco" : 45,
+		    "tp_venda" : "U",
+		    "grupo" : "salgados"
+	},{
+        "descricao" : "Risolis Frango",
+        "codbarras" : "7895866337746",
+        "qtd_estoque" : 22,
+        "preco" : 50,
+        "tp_venda" : "U",
+        "grupo" : "salgados"
+    },{
+        "descricao" : "Risolis Queijo",
+        "codbarras" : "7895866337747",
+        "qtd_estoque" : 26,
+        "preco" : 55,
+        "tp_venda" : "U",
+        "grupo" : "salgados"
+    },{
+        "descricao" : "Risolis Queijo e Presunto",
+        "codbarras" : "7895866337748",
+        "qtd_estoque" : 30,
+        "preco" : 60,
+        "tp_venda" : "U",
+        "grupo" : "salgados"
+    }]
+
+Schema para listar os produtos cadastrados rota /listarProdutos
+"produtos" : {
+	"grupo" : "bebidas",
+	"produto" : [{
+		"codbarra" : "7895866337740"
+	},{
+		"codbarra" : "7895866337741"
+	}]
+}

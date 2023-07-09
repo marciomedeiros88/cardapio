@@ -1,0 +1,80 @@
+.item{
+    margin: 0 0.25em;
+    width:auto;
+    height:3em;
+    text-align:center;
+    padding: 0 1em;
+}
+
+.item_quantidade{
+    margin: 0 0.25em;
+    height:3em;
+    text-align:center;
+    padding: 0 1em;
+}
+
+.codigo{
+    margin:0 0.25em;
+    width:auto;
+    height:3em;
+    text-align:center;
+}
+
+.quantidade{
+    margin:0 0.15em;
+    width:15em;
+    height:3em;
+    text-align:center;
+}
+
+.contador{
+    margin:0 0.15em;
+    width:15em;
+    height:3em;
+    text-align:center;
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.item_quantidade_largura{
+    width:6em;
+}
+
+.quantidade_item{
+    height:2em;
+    text-align:center;
+    font-size: 10pt;
+}
+
+.but_quantidade{
+    width:2em;
+    height:2em;
+    border-radius: 0.5em;
+    margin:0 0.25em;
+}
+
+.valor{
+    margin:0 0.25em;
+    width:auto;
+    height:3em;
+    text-align:center;
+}
+
+.text_item{
+    font-size: 20pt;
+    width:30em;
+}
+
+.text_item_left{
+    text-align:left;
+}
+
+.item_list_bg{
+    background-color: #896B45;
+}
+
+.item_list_line{
+    margin: 1em auto;
+    height:2em;
+}

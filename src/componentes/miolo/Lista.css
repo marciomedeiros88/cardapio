@@ -1,0 +1,42 @@
+.cadaitem{
+    width: 100%;
+    height:auto;
+}
+
+.text_item_lista{
+    font-size: 20pt;
+    width:20em;
+}
+
+.text_item_left{
+    text-align:left;
+}
+
+.imagem_produto{
+    width:10rem;
+}
+
+.imagem_produto img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    padding: 0;
+    border-radius: 1rem;
+}
+
+.imagem_produto img:hover{
+    width: 12rem !IMPORTANT;
+    object-fit: cover;
+}
+
+.text_item{
+    font-size: 20pt;
+    width:20em;
+}
+
+.valor_item{
+    width: 8rem;
+}
+
+.nome_item{
+}

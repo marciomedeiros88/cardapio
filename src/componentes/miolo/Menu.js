@@ -4,7 +4,6 @@ import React, {Component} from 'react'
 import comidas from '../../assets/comidas.jpg';
 import bebidas from '../../assets/bebidas.jpg';
 import sobremesas from '../../assets/sobremesas.jpg';
-import seta from '../../assets/seta.png';
 import logo from '../../assets/logo.png';
 import { useNavigate, Link } from 'react-router-dom';
 
@@ -19,11 +18,11 @@ const Menu = () => {
         </nav>
         <main>
             <section>
-            <div><Link to="/comidas" style={{ textDecoration: 'none' }}><img className="crop" src={comidas}></img>
+            <div className='back_color'><Link to="/comidas" style={{ textDecoration: 'none' }}><img className="crop" src={comidas}></img>
             <h1>Comidas</h1></Link></div>
-            <div><Link to="/bebidas" style={{ textDecoration: 'none' }}><img className="crop" src={bebidas}></img>
+            <div className='back_color'><Link to="/bebidas" style={{ textDecoration: 'none' }}><img className="crop back_color" src={bebidas}></img>
             <h1>Bebidas</h1></Link></div>
-            <div><Link to="/sobremesas" style={{ textDecoration: 'none' }}><img className="crop" src={sobremesas}></img>
+            <div className='back_color'><Link to="/sobremesas" style={{ textDecoration: 'none' }}><img className="crop back_color" src={sobremesas}></img>
             <h1>Sobremesas</h1></Link></div>
             </section>
             <footer>

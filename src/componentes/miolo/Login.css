@@ -1,0 +1,52 @@
+.titulologin{
+    color: white;
+    text-align: center;
+}
+
+.sectionlogin{
+    width: 30%;
+    margin: 10rem auto;
+    border-radius: 1rem;
+    background-color: rgba(68, 68, 68, 0.3);
+}
+
+.formlogin{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputemail, .inputpassword{
+    height: 2rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 0.5rem auto;
+    width: 20rem;
+    padding: 0 1rem;
+}
+
+.labelsenha, .labelemail{
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.butlogin{
+    height: 2rem;
+    width: 10rem;
+    font-size: 15pt;
+}
+
+.imglogin{
+    margin: auto;
+}
+
+.imglogin img{
+    width: 7.5rem;
+}
+
+.boxlogin{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 2rem;
+}

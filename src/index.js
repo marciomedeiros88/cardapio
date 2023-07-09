@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { generatePair } from './componentes/services/generate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+generatePair()
 root.render(
   <React.StrictMode>
     <App />

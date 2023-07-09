@@ -1,0 +1,73 @@
+.codigo{
+    margin:0 0.25em;
+    width:auto;
+    height:3em;
+    text-align:center;
+}
+
+.quantidade{
+    margin:0 0.15em;
+    width:15em;
+    height:3em;
+    text-align:center;
+}
+
+.contador{
+    margin:0 0.15em;
+    width:15em;
+    height:3em;
+    text-align:center;
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.item_quantidade_largura{
+    width:6em;
+}
+
+.quantidade_item{
+    height:2em;
+    text-align:center;
+    font-size: 10pt;
+}
+
+.but_quantidade{
+    width:2em;
+    height:2em;
+    border-radius: 0.5em;
+    margin:0 0.25em;
+}
+
+.valor{
+    margin:0 0.25em;
+    width:auto;
+    height:3em;
+    text-align:center;
+}
+
+.text_item_left{
+    text-align:left;
+}
+
+.item_list_bg{
+    background-color: #896B45;
+}
+
+.item_list_line{
+    margin: 1em auto;
+    height:2em;
+}
+
+.linha_produto{
+    margin: 1rem auto;
+    height: 10rem;
+    width: 100%;
+}
+
+.lista_itens{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}

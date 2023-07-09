@@ -16,15 +16,14 @@ section{
     justify-content: center;
 }
 
-main div{
+.back_color{
     background-color: #896B45;
     width: 25em;
     border-radius: 1em;
-    margin: 2em 1em auto;
     transition: all 500ms;
 }
 
-main div:hover{
+.back_color:hover{
     background-color: #665034;
     transition: all 500ms;
 }
@@ -61,8 +60,6 @@ main img{
 }
 
 main img:hover{
-    
-    
     height: 30em;
     object-fit: cover;
     transition: all 500ms;
